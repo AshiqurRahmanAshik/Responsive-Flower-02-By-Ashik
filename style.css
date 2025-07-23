@@ -197,11 +197,11 @@ nav {
 }
 .colorful_bunch input {
   margin: 1rem 0;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   width: 70%;
 }
 .colorful_bunch button {
-  padding: 0.5rem;
+  padding: 0.7rem;
   color: white;
   background-color: var(--primary-color);
   border: none;
