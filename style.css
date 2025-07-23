@@ -7,6 +7,9 @@
 img {
   width: 100%;
 }
+button {
+  cursor: pointer;
+}
 /* Common Style */
 :root {
   --primary-color: #e95a08;
@@ -16,7 +19,6 @@ header,
 main {
   max-width: 80%;
   margin: 2rem auto;
-  border: 1px solid red;
 }
 body {
   font-family: Noto Serif;
@@ -63,6 +65,7 @@ nav {
 
 /* Plant Section */
 .plant_text {
+  margin-top: 10rem;
   text-align: center;
 }
 .plant_text span {
@@ -73,6 +76,7 @@ nav {
 }
 .plant_text p {
   color: var(--secondary-color);
+  margin-top: 1rem;
 }
 .plant_cards {
   text-align: center;
@@ -198,7 +202,7 @@ nav {
 .colorful_bunch input {
   margin: 1rem 0;
   padding: 0.6rem 1rem;
-  width: 70%;
+  width: 60%;
 }
 .colorful_bunch button {
   padding: 0.7rem;
@@ -227,8 +231,8 @@ footer a {
   color: var(--secondary-color);
 }
 .footer_logo_icon img {
-  width: 30px;
-  margin: 1rem 1rem 0 0;
+  width: 25px;
+  margin: 1rem 0.8rem 0 0;
 }
 
 /* Responsive Layout */
@@ -264,7 +268,7 @@ footer a {
   }
 
   .plant_cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .flower_lover > * {
     flex: 1;
