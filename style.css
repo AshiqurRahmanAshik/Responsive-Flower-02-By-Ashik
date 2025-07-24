@@ -181,6 +181,11 @@ nav {
   justify-content: center;
   margin: 1rem 0;
 }
+.deals_cards_left_Bloom p:last-child,
+.deals_cards_left_ana p:last-child,
+.deals_cards_right p:last-child {
+  border-bottom: 2px solid white;
+}
 .colorful_bunch {
   background-image: url("./assets/news-letter-bg.png");
   background-size: cover;
