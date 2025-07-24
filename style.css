@@ -210,6 +210,7 @@ nav {
   background-color: var(--primary-color);
   border: none;
   font-weight: 700;
+  margin-left: -5px;
 }
 footer img {
   width: 80px;
@@ -217,9 +218,10 @@ footer img {
 footer {
   margin-top: 4rem;
   display: grid;
+  gap: 2rem;
   grid-template-columns: repeat(1, fr);
   color: var(--secondary-color);
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 footer ul li {
@@ -229,6 +231,9 @@ footer ul li {
 footer a {
   text-decoration: none;
   color: var(--secondary-color);
+}
+.footer_logo {
+  margin-right: 1rem;
 }
 .footer_logo_icon img {
   width: 25px;
